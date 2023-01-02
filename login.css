@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/clouds.png);
+  background-repeat: no-repeat;
+}
+#login-container {
+  height: 500px;
+  width: 450px;
+  border-radius: 15px;
+  background-color: white;
+  vertical-align: middle;
+  margin-top: 200px;
+  text-align: center;
+}
+#signup-container {
+  height: 550px;
+  width: 450px;
+  border-radius: 15px;
+  background-color: white;
+  vertical-align: middle;
+  margin-top: 150px;
+  text-align: center;
+}
+.login_text {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.signup_text {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.login_para {
+  color: grey;
+  font-style: italic;
+}
+.signup_para {
+  color: grey;
+  font-style: italic;
+}
+form {
+  width: 300px;
+  margin: 65px;
+  text-align: left;
+}
+.fa-solid {
+  padding-right: 10px;
+}
+.btn {
+  width: 300px;
+  height: 50px;
+  font-weight: bold !important;
+}
+.forgot_link {
+  text-decoration: none;
+  margin-top: 10px;
+}
